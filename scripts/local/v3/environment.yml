@@ -1,0 +1,14 @@
+name: pyspark3_env
+channels:
+  - defaults
+dependencies:
+  - python==3.7.3
+  - conda-pack
+  - findspark
+  - jupyterlab
+  - pip
+  - pylint
+  - spyder
+  - pip:
+    - parquet-tools
+    - -r ./requirements.txt
